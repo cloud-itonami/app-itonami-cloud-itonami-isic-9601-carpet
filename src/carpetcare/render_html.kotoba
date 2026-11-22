@@ -631,9 +631,8 @@
    "<footer>\n"
    "  <p>This actor declares its own operating model — an off-premises intake, where the "
    "rug is collected, cleaned and returned — and claims nothing beyond it. This workspace's "
-   "ISIC mirror does not enumerate carpet cleaning in any class; ISIC 9601's "
-   "&ldquo;washing, cleaning, dyeing and pressing of textile products&rdquo; is the reading "
-   "it operates under, not an authoritative self-classification. See "
+   "ISIC mirror does not enumerate carpet cleaning in any class; the ISIC 9601 scope "
+   "is the reading it operates under, not an authoritative self-classification. See "
    "<code>docs/adr/0001-architecture.md</code>.</p>\n"
    "</footer>\n</body>\n</html>\n"))
 

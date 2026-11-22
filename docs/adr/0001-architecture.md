@@ -13,8 +13,7 @@ spec mirror (`cloud-itonami/org-un-isic`) rather than from memory. Two of
 the three were explicit:
 
 - car washing → `4520.includes` names "washing, polishing"
-- pet care → `9609.includes` names "pet care services (grooming,
-  boarding, training)"
+- pet care → ISIC 9609 の範囲
 
 **Carpet cleaning was not in any class.** 8121, 8129 and 9601 were all
 checked; none enumerates it. The only classes naming carpet are
@@ -29,7 +28,7 @@ Two readings are defensible and this ADR records both:
 - **9601** — "washing, cleaning, dyeing, and pressing of **textile
   products**" (the class's own `description`). A carpet is a textile
   product. This is the reading the repo operates under.
-- **8121** — "interior cleaning of buildings." Carpet cleaned *in situ*,
+- **8121** — ISIC 8121 の範囲。Carpet cleaned *in situ*,
   on the customer's floor, is arguably interior building cleaning.
 
 The repo resolves this by **narrowing its own model rather than widening
